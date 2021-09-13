@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	th {
+		align: center;
+		width: 50px;
+	}
+
+	</style>
+</head>
+<body>
+
+<!-- 1. 单元格和内容之间的距离
+   cellpadding
+2. 单元格和单元格之间的距离
+   cellspacing
+3. 背景图片
+   background  
+4. 背景颜色
+   bgcolor  
+5. 合并行
+   rowspan
+6. 合并列
+   colspan
+7. 内容水平位置
+   align:left/right/center
+8. 垂直的位置
+   valign:top/bottom/middle 
+9. 边框
+   border -->
+
+<table bordercolor="blue" border="1" width="300" cellpadding="0" cellspacing="0" background="file:./2.jpg" height="300" align="center">
+	<caption><h2>table表格</h2></caption>
+	<tr >
+		<th>姓名</th>
+		<th>年龄</th>
+		<th>身高</th>
+		<th >体重</th>
+		<th  bgcolor="red">爱好</th>
+	</tr>
+	<tr>
+		<td valign="top">杨逸丰</td>
+		<td valign="bottom">20</td>
+		<td>174</td>
+		<td>60</td>
+		<td rowspan="2">写代码</td>
+	</tr>
+	<tr >
+		<td align="right">徐晓航</td>
+		<td colspan="2" align="center">23</td>
+		<td>65</td>
+	</tr>
+</table>
+
+
+<table bordercolor="white" border="1" width="300" cellpadding="0" cellspacing="0" background="file:./2.jpg" height="300" align="center">
+	<caption><h2>table表格</h2></caption>
+	<tr >
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>12</td>
+		<td>13</td>
+		<td>14</td>
+		<td>15</td>
+	</tr>
+	<tr >
+		<td>21</td>
+		<td>22</td>
+		<td>23</td>
+		<td>24</td>
+		<td>25</td>
+	</tr>
+</table>
+</body>
+</html>

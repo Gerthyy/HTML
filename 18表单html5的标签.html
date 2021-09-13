@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<form>
+<!--
+fieldset 将表单内的元素进行分组
+legend    为分组起名(标题)
+datalist  根据输入 进行下拉显示
+option    显示信息的数据
+-->	<p>
+		搜素
+		<input list="my_list">
+		<datalist id="my_list">
+			<option value="abc">
+			<option value="xyz">
+			<option value="18826123678">
+			<option value="15611833906">
+		</datalist>
+	</p>
+	<fieldset>
+		<legend>用户必填信息</legend>
+		<p>用户名<input type="text" name="" value=""></p>
+		<p>密码<input type="password" name="" value=""></p>
+	</fieldset>
+	<fieldset>
+		<legend>选填信息</legend>
+		<p>选择性别:
+	 		<label for="women">女</label>
+	 		<input type="radio" name="sex" id="women" value="w">
+	 		<input type="radio" name="sex" value="m">男
+	 		<input type="radio" name="sex" value="wm" checked>人妖
+	 	</p>
+	 	<p>
+	 		爱好：
+	 		<input type="checkbox" name="like[]" value="playcode">敲代码
+	 		<input type="checkbox" name="like[]" value="playcz" checked>玩锤子
+	 		<input type="checkbox" name="like[]" value="read">read book
+	 	</p>
+	 	<p>
+	 		选择你的地址:
+	 		<select>
+	 			<optgroup label="男装">
+		 			<option>男士西服</option>
+		 			<option>衬衫</option>
+	 			</optgroup>
+	 			<optgroup label="女装">
+		 			<option>裙子</option>
+		 			<option>高跟鞋</option>
+		 		</optgroup>
+	 		</select>
+	 	</p>
+	</fieldset>
+	<h2>inputH5的标签</h2>
+	<p>时间 <input type="time"></p>
+	<p>日期 <input type="date"></p>
+	<p>范围 <input type="range"></p>
+	<p>url <input type="url"></p>
+	<p>email <input type="email"></p>
+	<p>serach <input type="search"></p>
+	<p>color <input type="color"></p>
+	<input type="submit" name="submit">
+</form>
+</body>
+</html>
