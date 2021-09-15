@@ -210,9 +210,7 @@ h4:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3
 
 6. \<del>\</del>     删除线
 
-7. \<font size="1-7" color="英文单词/十六进制" face="字体1,字体2...">修饰的内容\</font>    多个字体类似于备胎
-
-8. \<u>\</u>     下划线
+7. \<u>\</u>     下划线
 
    ```html
    我是第一行我是第二行<br>我是第第三行<!-- <br /> --><p>少小离家老大回</p><p>安能辩我是雌雄</p><!--斜体--><i>说斜就斜了</i><em>我也是斜体 强调斜体</em><br /><b>我加粗了</b><br /><strong>trong的强调加粗</trong><!--又粗又斜--><b><i>又粗又斜</i></b><br /><i><b>又粗又斜</b></i>
